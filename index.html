@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Testing</title>
+
+    <!-- Font Awesome Cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+
+    <!-- Bootstrap Css Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+</head>
+
+<body class="bg-white">
+
+    <!-- Nav Bar Start -->
+    <header class="position-fixed top-0 left-0 vw-100 z-3">
+        <nav class="navbar navbar-expand-lg bg-white shadow-sm py-3 py-lg-2">
+            <div class="container">
+                <a class="navbar-brand overflow-hidden" style="width: 60px; height: 60px;" href="#">
+                    <img src="./images/download-removebg-preview.png" class="w-100 object-fit-cover " alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                        <li class="nav-item me-4 fs-6 fw-bold" id="home-nav">
+                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item me-4 fs-6" id="corner">
+                            <a class="nav-link" href="#coner">BBB Corner</a>
+                        </li>
+                        <li class="nav-item me-4 fs-6">
+                            <a class="nav-link" href="#forum">Forum</a>
+                        </li>
+                        <li class="nav-item me-4 fs-6">
+                            <a class="nav-link" href="#rank">Rank</a>
+                        </li>
+                        <li class="nav-item me-4 fs-6">
+                            <a class="nav-link" href="#faq">FAQ</a>
+                        </li>
+                        <li class="nav-item me-4 fs-6">
+                            <a class="nav-link" href="#contact">Contact Us</a>
+                        </li>
+                        <li class="nav-item me-4 fs-6 d-inline d-lg-none" id="login">
+                            <a href="#" class="nav-link">Login <i class="fa-solid fa-arrow-right-to-bracket"></i></a>
+                        </li>
+                    </ul>
+                </div>
+
+                <a href="#" class="text-black text-decoration-none me-5 pe-2 d-none d-lg-inline" id="login">
+                    <div class="d-flex cursor-pointer ">
+                        <span class="me-4 fs-6"><i class="fa-solid fa-arrow-right-to-bracket"></i></span>
+                        <span>Login</span>
+                    </div>
+                </a>
+            </div>
+        </nav>
+    </header>
+    <!-- Nav Bar End -->
+
+
+    <!-- Home Section Start -->
+    <Section id="home" class="position-relative py-5 py-xl-0 " id="home">
+        <div class="container-lg position-relative top-0 vh-lg-100 d-flex justify-content-center align-items-start">
+            <div class="row vw-100 mt-5 pt-4 px-3 px-lg-0">
+                <div class="col-md-5 col-xl-3 col-12 mt-4 px-0">
+                    <div class="w-100 position-relative bg-success">
+                        <img src="./images/home_img.jpg" class="w-100 rounded" alt="">
+                        <div class="position-absolute top-0 px-3 py-2 d-flex align-items-center">
+                            <div class="rounded-circle overflow-hidden border-2 border border-white" style="width: 40px">
+                                <img src="./images/review.jpg" class="object-fit-cover w-100" alt="">
+                            </div>
+                            <div class="d-flex flex-column ms-2">
+                                <span class="text-white fw-bold">Agency</span>
+                                <small class="text-secondary text-white">lorem ipsum</small>
+                            </div>
+                        </div>
+                        <div class="position-absolute bottom-0 px-3 py-2 d-flex flex-column">
+                            <span class="text-white fw-bold">120 Views</span>
+                            <small class="text-secondary">12 Oct, 2022 - 23 Jan, 2023</small>
+                        </div>
+                    </div>
+                    <div class="row mt-3 px-1">
+                        <div class="col-3 px-0">
+                            <div class="w-100 text-center">
+                                <img src="./images/home_img.jpg" class="w-75 rounded" alt="">
+                            </div>
+                        </div>
+                        <div class="col-3 px-0">
+                            <div class="w-100 text-center">
+                                <img src="./images/home_img.jpg" class="w-75 rounded" alt="">
+                            </div>
+                        </div>
+                        <div class="col-3 px-0">
+                            <div class="w-100 text-center">
+                                <img src="./images/home_img.jpg" class="w-75 rounded" alt="">
+                            </div>
+                        </div>
+                        <div class="col-3 px-0">
+                            <div class="w-100 text-center">
+                                <img src="./images/home_img.jpg" class="w-75 rounded" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-7 col-xl-9 col-12 mt-4">
+                    <div class="row">
+                        <div class="col d-flex flex-wrap flex-sm-nowrap justify-content-between align-items-start">
+                            <div class="d-flex flex-column ps-2 ps-md-4 ps-xl-3 pb-4 gap-1 align-items-start">
+                                <h3 class="fw-bold">Jenny Wilson</h3>
+                                <small>
+                                    <i class="fa-solid fa-location-dot text-danger"></i>
+                                    <span class="ms-2">Thornridge Cir, Shiloh, Hawaii</span>
+                                </small>
+                                <small>
+                                    <span class="me-3">Shape: <i class="fa-solid fa-star ps-2 pe-1 text-danger"></i> 4.7/5 </span> | 
+                                    <span class="mx-3">Sex: <i class="fa-solid fa-star ps-2 pe-1 text-danger"></i> 4/5 </span> |
+                                    <span>Warthiness: <i class="fa-solid fa-star ps-2 pe-1 text-danger"></i> 4.7/5 </span>  
+                                </small>
+                            </div>
+                            <div class="d-flex flex-column gap-2 justify-content-start align-items-center me-0 me-lg-5 mb-2 mb-sm-0">
+                                <span class="d-flex justify-content-center align-items-center p-2 rounded-circle bg-danger text-white"><i class="fa-regular fa-heart"></i></span>
+                                <small>Whishlist</small>
+                            </div>
+                        </div>
+                        <div class="row ps-5 ps-xl-4">
+                            <div class="col-12 col-xl-5 mb-3 mb-xl-0">
+                                <h5 class="fw-semibold mb-2">Detail</h5>
+                                <p class="mb-1">
+                                    <span class="fw-semibold me-1">Sex:</span>
+                                    <span class="text-muted">Female</span>
+                                </p>
+                                <p class="mb-1">
+                                    <span class="fw-semibold me-1">Nationality:</span>
+                                    <span class="text-muted">Thailand</span>
+                                </p>
+                                <p class="mb-1">
+                                    <span class="fw-semibold me-1">Age:</span>
+                                    <span class="text-muted">32</span>
+                                </p>
+                                <p class="mb-1">
+                                    <span class="fw-semibold me-1">Height:</span>
+                                    <span class="text-muted">160cm</span>
+                                </p>
+                                <p class="mb-1">
+                                    <span class="fw-semibold me-1">Weight:</span>
+                                    <span class="text-muted">120lb</span>
+                                </p>
+                                <p class="mb-1">
+                                    <span class="fw-semibold me-1">Size:</span>
+                                    <span class="text-muted">32-24-38</span>
+                                </p>
+                                <p class="mb-1">
+                                    <span class="fw-semibold me-1">Avaliable:</span>
+                                    <span class="text-muted">09:00 AM - 03:00 PM</span>
+                                </p>
+                            </div>
+                            <div class="col-12 col-xl-7 ps-xl-4">
+                                <h5 class="fw-semibold mb-2">Service</h5>
+                                <div class="d-flex flex-wrap gap-2 mb-4 mb-xl-2">
+                                    <span class="btn btn-danger">Foreplay</span>
+                                    <span class="btn btn-danger">69</span>
+                                    <span class="btn btn-danger">Catbath</span>
+                                    <span class="btn btn-danger">Shower</span>
+                                    <span class="btn btn-danger">BDSM</span>
+                                    <span class="btn btn-danger">Foreplay</span>
+                                    <span class="btn btn-danger">69</span>
+                                    <span class="btn btn-danger">Catbath</span>
+                                    <span class="btn btn-danger">Shower</span>
+                                    <span class="btn btn-danger">BDSM</span>
+                                </div>
+                                <h5 class="fw-semibold mb-2 ">Bio</h5>
+                                <small class="text-align-star text-muted mb-4 mb-xl-2">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, dolorem corrupti? Dolores, omnis. Molestiae eum repellendus dolorum itaque debitis sed repudiandae voluptatum mollitia quibusdam fuga placeat neque possimus ut magnam quod aut quia deleniti reiciendis eaque maiores, ab esse fugit laborum. Velit aut, numquam, nemo necessitatibus quia harum laborum provident commodi nisi animi quisquam, obcaecati quis temporibus? Assumenda, earum veniam.
+                                </small>
+                                <h5 class="fw-semibold mb-2 mt-4">Contact</h5>
+                                <div class="flex justify-content-start gap-2">
+                                    <button type="button" class="btn btn-success me-3 mb-2 mb-sm-0 mb-md-2 mb-lg-0">
+                                        <i class="fa-brands fa-whatsapp text-white"></i>
+                                        <span class="ms-3">Link to whatsApp</span>
+                                    </button>
+                                    <button type="button" class="btn btn-primary mb-2 mb-sm-0 mb-md-2 mb-lg-0">
+                                        <i class="fa-brands fa-telegram text-white"></i>
+                                        <span class="ms-3">Link to Telegram</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </Section>
+    <!-- Home Section End -->
+
+    <!-- Corner Section Start -->
+    <Section id="corner" class="my-5 py-5 py-xl-0">
+        <div class="container-lg">
+            <div class="row bg-light mx-2 mx-md-5 mx-lg-3 rounded py-md-4 py-5 px-lg-4 px-md-0 px-4">
+                <div class="col-md-5 col-xl-3 col-12 mt-4 d-block" id="rating">
+                    <h4 class="fw-semibold mb-3">Rating and Reviews</h4>
+                    <p class="mb-1 pe-5 d-flex justify-content-between align-items-center">
+                        <span class="fw-semibold me-1">Figure:</span>
+                        <span>
+                            <i class="fa-solid fa-star text-danger"></i>
+                            <i class="fa-solid fa-star text-danger"></i>
+                            <i class="fa-solid fa-star text-danger"></i>
+                            <i class="fa-solid fa-star-half-stroke text-danger"></i>
+                            <i class="fa-regular fa-star text-danger"></i>
+                        </span>
+                    </p>
+                    <p class="mb-1 pe-5 d-flex justify-content-between align-items-center">
+                        <span class="fw-semibold me-1">Sex:</span>
+                        <span>
+                            <i class="fa-solid fa-star text-danger"></i>
+                            <i class="fa-solid fa-star text-danger"></i>
+                            <i class="fa-solid fa-star text-danger"></i>
+                            <i class="fa-solid fa-star-half-stroke text-danger"></i>
+                            <i class="fa-regular fa-star text-danger"></i>
+                        </span>
+                    </p>
+                    <p class="mb-1 pe-5 d-flex justify-content-between align-items-center">
+                        <span class="fw-semibold me-1">Worthiness:</span>
+                        <span>
+                            <i class="fa-solid fa-star text-danger"></i>
+                            <i class="fa-solid fa-star text-danger"></i>
+                            <i class="fa-solid fa-star text-danger"></i>
+                            <i class="fa-solid fa-star-half-stroke text-danger"></i>
+                            <i class="fa-regular fa-star text-danger"></i>
+                        </span>
+                    </p>
+                </div>
+                <div class="col-md-7 col-xl-9 col-12 mt-5" id="review">
+                    <textarea name="" class="border-0 px-2 py-1 mb-2 w-100 rounded shadow-sm" style="height: 100px" placeholder="Enter your reviews" id="" cols="30" rows="10"></textarea>
+                    <button class="btn bg-white px-4 mb-2 shadow-sm"><i class="fa-regular fa-image"></i></button>
+                    <div class="d-flex gap-2 mb-3">
+                        <div style="width: 90px; height: 60px" class="overflow-hidden rounded">
+                            <img src="./images/cute.jpg" class="w-100 h-100 object-fit-cover" alt="">
+                        </div>
+                        <div style="width: 90px; height: 60px" class="overflow-hidden rounded">
+                            <img src="./images/cute 4.jpg" class="w-100 object-fit-cover" alt="">
+                        </div>
+                        <div style="width: 90px; height: 60px" class="overflow-hidden rounded">
+                            <img src="./images/cute 3.jpg" class="w-100 object-fit-cover" alt="">
+                        </div>
+                    </div>
+                    <button type="button" class="w-100 btn btn-danger">Submit</button>
+                </div>
+            </div>
+        </div>
+    </Section>
+    <!-- Corner Section End -->
+
+    <!-- Forum Section Start -->
+    <Section id="forum" class="my-5">
+        <div class="container-lg">
+            <div class="row mx-2 mx-md-5 mx-lg-0">
+                <div class="col-lg-1 col-2">
+                    <div class="w-100 rounded-circle overflow-hidden">
+                        <img src="./images/review.jpg" class="object-fit-cover w-100" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-11 col-10">
+                    <div class="d-md-flex flex-wrap justify-content-md-between align-items-center mb-2">
+                        <div>
+                            <h5 class="fw-semibold mb-2">Derlene Robertson <span class="ms-4 text-muted"><i class="fa-solid fa-pen"></i></span></h5>
+                            <small>
+                                <span class="me-3">Shape: <i class="fa-solid fa-star ps-2 pe-1 text-danger"></i> 4.7/5 </span> | 
+                                <span class="mx-3">Sex: <i class="fa-solid fa-star ps-2 pe-1 text-danger"></i> 4/5 </span> |
+                                <span>Worthiness: <i class="fa-solid fa-star ps-2 pe-1 text-danger"></i> 4.7/5 </span>  
+                            </small>
+                        </div>
+                        <div class="d-flex">
+                            <p class="me-5">
+                                <span class="text-primary me-1"><i class="fa-solid fa-crown"></i></span><span class="fw-semibold">PT:6</span>
+                            </p>
+                            <p class="me-5">
+                                <span class="text-primary me-1"><i class="fa-solid fa-pen"></i></span><span class="fw-semibold">PW:20</span>
+                            </p>
+                            <p>
+                                <span class="fw-semibold">3comments</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit ratione nulla dolorum voluptas commodi quos, accusantium sequi at corrupti vero, amet vitae deleniti minima neque mollitia aliquid! Accusamus, eum? Ullam numquam quisquam
+                            hic obcaecati, ipsam consequuntur saepe ut, deserunt vel odio quo ipsum sequi, reprehenderit in ratione beatae! Commodi velit et dicta fugiat eveniet debitis reiciendis necessitatibus quibusdam impedit inventore.</p>
+                    </div>
+                    <div class="d-flex flex-wrap flex-md-nowrap gap-3 mb-3">
+                        <div style="width: 180px; height: 120px" class="overflow-hidden rounded">
+                            <img src="./images/review photo.jpg" class="w-100 h-100 object-fit-cover" alt="">
+                        </div>
+                        <div style="width: 180px; height: 120px" class="overflow-hidden rounded">
+                            <img src="./images/review photo 4.webp" class="w-100 object-fit-cover" alt="">
+                        </div>
+                        <div style="width: 180px; height: 120px" class="overflow-hidden rounded">
+                            <img src="./images/review photo 3.jpg" class="w-100 object-fit-cover" alt="">
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center gap-2 mb-5">
+                        <button class="btn btn-success"><i class="fa-regular fa-thumbs-up"></i></button>
+                        <button class="btn btn-primary"><i class="fa-regular fa-thumbs-down"></i></button>
+                        <input type="text" class="form-control px-5 bg-light" placeholder="Enter your comment" name="" id="">
+                        <button class="btn btn-danger"><i class="fa-solid fa-paper-plane"></i></button>
+                    </div>
+                    <div class="row mb-4">
+                        <div class="col-2 col-md-1">
+                            <div class="w-100 text-center rounded-circle overflow-hidden">
+                                <img src="./images/review6.jpg" class="object-fit-cover w-100" alt="">
+                            </div>
+                        </div>
+                        <div class="col-10 col-md-11 p-3 bg-light rounded">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <h5 class="fw-semibold mb-2">Derlene Robertson<span class="text-primary ms-1"><i class="fa-solid fa-crown"></i></span></h5>
+                                <i class="fa-solid fa-pen text-muted"></i>
+                            </div>
+                            <p class="mb-3 pe-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et nisi ex libero aspernatur, assumenda natus. Laboriosam quod, deserunt quis commodi quasi et sapiente ducimus? Cum aut voluptas numquam, sit reprehenderit ea deleniti
+                                accusantium totamrrad, harum quisquam molestiae suscipit repellat quia, beatae distinctio nobis minima.</p>
+                        </div>
+                    </div>
+                    <div class="row mb-4">
+                        <div class="col-2 col-md-1">
+                            <div class="w-100 text-center rounded-circle overflow-hidden">
+                                <img src="./images/review3.jpg" class="object-fit-cover w-100" alt="">
+                            </div>
+                        </div>
+                        <div class="col-10 col-md-11 p-3 bg-light rounded">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <h5 class="fw-semibold mb-2">Derlene Robertson<span class="text-primary ms-1"><i class="fa-solid fa-crown"></i></span></h5>
+                                <i class="fa-solid fa-pen text-muted"></i>
+                            </div>
+                            <p class="mb-3 pe-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et nisi ex libero aspernatur, assumenda natus. Laboriosam quod, deserunt quis commodi quasi et sapiente ducimus? Cum aut voluptas numquam, sit reprehenderit ea deleniti
+                                accusantium totamrrad, harum quisquam molestiae suscipit repellat quia, beatae distinctio nobis minima.</p>
+                        </div>
+                    </div>
+                    <div class="row mb-4">
+                        <div class="col-2 col-md-1">
+                            <div class="w-100 text-center rounded-circle overflow-hidden">
+                                <img src="./images/review8.jpg" class="object-fit-cover w-100" alt="">
+                            </div>
+                        </div>
+                        <div class="col-10 col-md-11 p-3 bg-light rounded">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <h5 class="fw-semibold mb-2">Derlene Robertson<span class="text-primary ms-1"><i class="fa-solid fa-crown"></i></span></h5>
+                                <i class="fa-solid fa-pen text-muted"></i>
+                            </div>
+                            <p class="mb-3 pe-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et nisi ex libero aspernatur, assumenda natus. Laboriosam quod, deserunt quis commodi quasi et sapiente ducimus? Cum aut voluptas numquam, sit reprehenderit ea deleniti
+                                accusantium totamrrad, harum quisquam molestiae suscipit repellat quia, beatae distinctio nobis minima.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </Section>
+    <!-- Forum Section End -->
+
+    <!-- Line -->
+    <hr class="container border border-danger overflow-hidden">
+
+    <!-- Rank Section Start -->
+    <Section id="rank" class="my-5">
+        <div class="container-lg">
+            <div class="row mx-2 mx-md-5 mx-lg-0">
+                <div class="col-lg-1 col-2">
+                    <div class="w-100 rounded-circle overflow-hidden">
+                        <img src="./images/review.jpg" class="object-fit-cover w-100" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-11 col-10">
+                    <div class="d-md-flex flex-wrap justify-content-md-between align-items-center mb-2">
+                        <div>
+                            <h5 class="fw-semibold mb-2">Derlene Robertson <span class="ms-4 text-muted"><i class="fa-solid fa-pen"></i></span></h5>
+                            <small>
+                                <span class="me-3">Shape: <i class="fa-solid fa-star ps-2 pe-1 text-danger"></i> 4.7/5 </span> | 
+                                <span class="mx-3">Sex: <i class="fa-solid fa-star ps-2 pe-1 text-danger"></i> 4/5 </span> |
+                                <span>Worthiness: <i class="fa-solid fa-star ps-2 pe-1 text-danger"></i> 4.7/5 </span>  
+                            </small>
+                        </div>
+                        <div class="d-flex">
+                            <p class="me-5">
+                                <span class="text-primary me-1"><i class="fa-solid fa-crown"></i></span><span class="fw-semibold">PT:6</span>
+                            </p>
+                            <p class="me-5">
+                                <span class="text-primary me-1"><i class="fa-solid fa-pen"></i></span><span class="fw-semibold">PW:20</span>
+                            </p>
+                            <p>
+                                <span class="fw-semibold">3comments</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit ratione nulla dolorum voluptas commodi quos, accusantium sequi at corrupti vero, amet vitae deleniti minima neque mollitia aliquid! Accusamus, eum? Ullam numquam quisquam
+                            hic obcaecati, ipsam consequuntur saepe ut, deserunt vel odio quo ipsum sequi, reprehenderit in ratione beatae! Commodi velit et dicta fugiat eveniet debitis reiciendis necessitatibus quibusdam impedit inventore.</p>
+                    </div>
+                    <div class="d-flex flex-wrap flex-md-nowrap gap-3 mb-3">
+                        <div style="width: 180px; height: 120px" class="overflow-hidden rounded">
+                            <img src="./images/review photo.jpg" class="w-100 h-100 object-fit-cover" alt="">
+                        </div>
+                        <div style="width: 180px; height: 120px" class="overflow-hidden rounded">
+                            <img src="./images/review photo 4.webp" class="w-100 object-fit-cover" alt="">
+                        </div>
+                        <div style="width: 180px; height: 120px" class="overflow-hidden rounded">
+                            <img src="./images/review photo 3.jpg" class="w-100 object-fit-cover" alt="">
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center gap-2 mb-5">
+                        <button class="btn btn-success"><i class="fa-regular fa-thumbs-up"></i></button>
+                        <button class="btn btn-primary"><i class="fa-regular fa-thumbs-down"></i></button>
+                        <input type="text" class="form-control px-5" style="background-color: #d3d3d3" placeholder="Enter your comment" name="" id="">
+                        <button class="btn btn-danger"><i class="fa-solid fa-paper-plane"></i></button>
+                    </div>
+                    <div class="row mb-4">
+                        <div class="col-2 col-md-1">
+                            <div class="w-100 text-center rounded-circle overflow-hidden">
+                                <img src="./images/review6.jpg" class="object-fit-cover w-100" alt="">
+                            </div>
+                        </div>
+                        <div class="col-10 col-md-11 p-3 bg-light rounded">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <h5 class="fw-semibold mb-2">Derlene Robertson<span class="text-primary ms-1"><i class="fa-solid fa-crown"></i></span></h5>
+                                <i class="fa-solid fa-pen text-muted"></i>
+                            </div>
+                            <p class="mb-3 pe-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et nisi ex libero aspernatur, assumenda natus. Laboriosam quod, deserunt quis commodi quasi et sapiente ducimus? Cum aut voluptas numquam, sit reprehenderit ea deleniti
+                                accusantium totamrrad, harum quisquam molestiae suscipit repellat quia, beatae distinctio nobis minima.</p>
+                        </div>
+                    </div>
+                    <div class="row mb-4">
+                        <div class="col-2 col-md-1">
+                            <div class="w-100 text-center rounded-circle overflow-hidden">
+                                <img src="./images/review3.jpg" class="object-fit-cover w-100" alt="">
+                            </div>
+                        </div>
+                        <div class="col-10 col-md-11 p-3 bg-light rounded">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <h5 class="fw-semibold mb-2">Derlene Robertson<span class="text-primary ms-1"><i class="fa-solid fa-crown"></i></span></h5>
+                                <i class="fa-solid fa-pen text-muted"></i>
+                            </div>
+                            <p style="background-color: #f3f3f3" class="mb-3 pe-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et nisi ex libero aspernatur, assumenda natus. Laboriosam quod, deserunt quis commodi quasi et sapiente ducimus? Cum aut voluptas numquam, sit reprehenderit ea deleniti
+                                accusantium totamrrad, harum quisquam molestiae suscipit repellat quia, beatae distinctio nobis minima.</p>
+                        </div>
+                    </div>
+                    <div class="row mb-4">
+                        <div class="col-2 col-md-1">
+                            <div class="w-100 text-center rounded-circle overflow-hidden">
+                                <img src="./images/review8.jpg" class="object-fit-cover w-100" alt="">
+                            </div>
+                        </div>
+                        <div class="col-10 col-md-11 p-3 bg-light rounded">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <h5 class="fw-semibold mb-2">Derlene Robertson<span class="text-primary ms-1"><i class="fa-solid fa-crown"></i></span></h5>
+                                <i class="fa-solid fa-pen text-muted"></i>
+                            </div>
+                            <p class="mb-3 pe-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et nisi ex libero aspernatur, assumenda natus. Laboriosam quod, deserunt quis commodi quasi et sapiente ducimus? Cum aut voluptas numquam, sit reprehenderit ea deleniti
+                                accusantium totamrrad, harum quisquam molestiae suscipit repellat quia, beatae distinctio nobis minima.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </Section>
+    <!-- Rank Section End -->
+
+    <!-- Line -->
+    <hr class="container border border-danger overflow-hidden">
+
+    <!-- Paginator -->
+    <div class="container d-flex justify-content-center align-items-center mt-5 py-1 gap-2">
+        <button class="btn btn-light text-black border border-dark border-1"><i class="fa-solid fa-chevron-left"></i></button>
+        <button class="btn btn-danger text-black border border-dark border-1">1</button>
+        <button class="btn btn-white text-black border border-dark border-1">2</button>
+        <button class="btn btn-white text-black border border-dark border-1">...</button>
+        <button class="btn btn-white text-black border border-dark border-1">9</button>
+        <button class="btn btn-white text-black border border-dark border-1">10</button>
+        <button class="btn btn-white text-black border border-dark border-1"><i class="fa-solid fa-chevron-right"></i></button>
+    </div>
+
+    <!-- Footer Section Start -->
+    <Footer class="py-5 px-0 bg-danger d-flex justify-content-start align-items-center mt-5">
+        <div class="container ">
+            <h4 class="fw-bold text-white mb-2">BIGBOYBRO</h4>
+            <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+        </div>
+    </Footer>
+
+    <!-- Copy Right Section -->
+    <div class="bg-white pt-3 pb-1 d-flex align-items-center">
+        <p class="text-danger container">
+            <i class="fa-regular fa-copyright"></i> 2023 Copyright | Powered by BIGBOYBRO
+        </p>
+    </div>
+
+    <!-- Bootstrap Script Link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js " integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN " crossorigin="anonymous "></script>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
